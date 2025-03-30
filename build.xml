@@ -1,0 +1,77 @@
+<project name="FatJar welcomepack.jar" default="main" basedir=".">
+
+	<path id="LIBS">
+		<fileset dir="lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<typedef file="descriptor.xml">
+		<classpath>
+			<pathelement location="fatJar/fatjar.jar" />
+		</classpath>
+	</typedef>
+
+	<target name="clean">
+		<delete dir="bin" />
+		<delete dir="dist" />
+	</target>
+
+	<target name="compile">
+		<mkdir dir="bin" />
+		<mkdir dir="dist" />
+		<javac destdir="bin" srcdir="src" source="17" target="17" classpathref="LIBS" deprecation="true" verbose="false" debug="false" encoding="UTF-8" includeantruntime="false" />
+		<copy todir="bin" overwrite="true">
+			<fileset dir="src">
+				<exclude name="**/*.java" />
+				<include name="**/*.properties" />
+				<include name="**/*.factories" />
+				<include name="**/*.handlers" />
+				<include name="**/*.schemas" />
+				<include name="**/*.tooling" />
+				<include name="**/*.klotin_module" />
+				<include name="**/*.txt" />
+				<include name="**/*.xml" />
+				<include name="**/*.LIST" />
+				<include name="**/*.dtd" />
+				<include name="**/*.jks" />
+				<include name="**/*.html" />
+				<include name="**/*.jpg" />
+				<include name="**/*.png" />
+				<include name="**/*.wsdl" />
+				<include name="**/*.xsd" />
+				<include name="**/*.json" />
+				<include name="**/*.yml" />
+				<include name="**/*.yaml" />
+			</fileset>
+		</copy>
+		<copy file="META-INF/MANIFEST.MF" todir="bin/META-INF" />
+	</target>
+
+	<target name="main" depends="clean, compile">
+		<record name="build.log" action="start" />
+		<buildFatJar output="dist/welcomepack.jar">
+			<fatjar.manifest mergemanifests="true" mainclass="com.mapfre.welcomepack.Main" />
+			<fatjar.filesource path="bin" relpath="" />
+			<fatjar.jarsource file="lib/spring-core/spring-core-5.3.8.jar" relpath="" />
+			<fatjar.jarsource file="lib/spring-context/spring-context-5.3.8.jar" relpath="" />
+			<fatjar.jarsource file="lib/spring-beans/spring-beans-5.3.8.jar" relpath="" />
+			<fatjar.jarsource file="lib/spring-aop/spring-aop-5.3.8.jar" relpath="" />
+			<fatjar.jarsource file="lib/spring-expression/spring-expression-5.3.8.jar" relpath="" />
+			<fatjar.jarsource file="lib/spring-web/spring-web-5.3.8.jar" relpath="" />
+			<fatjar.jarsource file="lib/gson/2.8.7/gson-2.8.7.jar" relpath="" />
+			<fatjar.jarsource file="lib/commons-logging/1.2/commons-logging-1.2.jar" relpath="" />
+			<fatjar.jarsource file="lib/commons-csv/1.9.0/commons-csv-1.9.0.jar" relpath="" />
+			<fatjar.jarsource file="lib/commons-io/2.13.0/commons-io-2.13.0.jar" relpath="" />
+			<fatjar.jarsource file="lib/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar" relpath="" />
+			<fatjar.jarsource file="lib/jackson-core/2.18.2/jackson-core-2.18.2.jar" relpath="" />
+			<fatjar.jarsource file="lib/jackson-databind/2.18.2/jackson-databind-2.18.2.jar" relpath="" />
+			<fatjar.jarsource file="lib/jsch/jsch-0.1.55.jar" relpath="" />
+			<fatjar.jarsource file="lib/logback-classic/1.5.16/logback-classic-1.5.16.jar" relpath="" />
+			<fatjar.jarsource file="lib/logback-core/1.5.16/logback-core-1.5.16.jar" relpath="" />
+			<fatjar.jarsource file="lib/slf4j-api/2.0.16/slf4j-api-2.0.16.jar" relpath="" />
+		</buildFatJar>
+		<record name="build.log" action="stop" />
+	</target>
+
+</project>

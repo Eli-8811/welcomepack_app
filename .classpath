@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry kind="src" path="src"/>
+    <classpathentry kind="lib" path="lib/spring-core/spring-core-5.3.8.jar"/>   
+    <classpathentry kind="lib" path="lib/spring-context/spring-context-5.3.8.jar"/>
+    <classpathentry kind="lib" path="lib/spring-beans/spring-beans-5.3.8.jar"/>
+    <classpathentry kind="lib" path="lib/spring-aop/spring-aop-5.3.8.jar"/>
+    <classpathentry kind="lib" path="lib/spring-expression/spring-expression-5.3.8.jar"/>
+    <classpathentry kind="lib" path="lib/spring-web/spring-web-5.3.8.jar"/>
+    <classpathentry kind="lib" path="lib/gson/2.8.7/gson-2.8.7.jar"/>
+    <classpathentry kind="lib" path="lib/commons-logging/1.2/commons-logging-1.2.jar"/>
+    <classpathentry kind="lib" path="lib/commons-csv/1.9.0/commons-csv-1.9.0.jar"/>
+    <classpathentry kind="lib" path="lib/commons-io/2.13.0/commons-io-2.13.0.jar"/>    
+    <classpathentry kind="lib" path="lib/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar"/>
+    <classpathentry kind="lib" path="lib/jackson-core/2.18.2/jackson-core-2.18.2.jar"/>
+    <classpathentry kind="lib" path="lib/jackson-databind/2.18.2/jackson-databind-2.18.2.jar"/>
+    <classpathentry kind="lib" path="lib/jsch/jsch-0.1.55.jar"/>
+    <classpathentry kind="lib" path="lib/logback-classic/1.5.16/logback-classic-1.5.16.jar"/>
+    <classpathentry kind="lib" path="lib/logback-core/1.5.16/logback-core-1.5.16.jar"/>
+    <classpathentry kind="lib" path="lib/slf4j-api/2.0.16/slf4j-api-2.0.16.jar"/>    
+    <classpathentry kind="output" path="bin"/>
+</classpath>
+

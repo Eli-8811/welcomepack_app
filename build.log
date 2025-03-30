@@ -1,0 +1,71 @@
+[buildFatJar] Build Output='dist/welcomepack.jar'
+[buildFatJar] manifest[merge,removesigners,main='com.mapfre.welcomepack.Main']
+[buildFatJar] adding native file system source 'bin'
+[buildFatJar] adding jar file source 'lib/spring-core/spring-core-5.3.8.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/spring-context/spring-context-5.3.8.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/spring-beans/spring-beans-5.3.8.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/spring-aop/spring-aop-5.3.8.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/spring-expression/spring-expression-5.3.8.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/spring-web/spring-web-5.3.8.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/gson/2.8.7/gson-2.8.7.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/commons-logging/1.2/commons-logging-1.2.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/commons-csv/1.9.0/commons-csv-1.9.0.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/commons-io/2.13.0/commons-io-2.13.0.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/jackson-core/2.18.2/jackson-core-2.18.2.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/jackson-databind/2.18.2/jackson-databind-2.18.2.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/jsch/jsch-0.1.55.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/logback-classic/1.5.16/logback-classic-1.5.16.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/logback-core/1.5.16/logback-core-1.5.16.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] adding jar file source 'lib/slf4j-api/2.0.16/slf4j-api-2.0.16.jar'
+[buildFatJar] excluding 0 entries and 1 patterns
+[buildFatJar] not resolving conflict in file META-INF\license.txt
+[buildFatJar] not resolving conflict in file META-INF\notice.txt
+[buildFatJar] not resolving conflict in file META-INF\spring.handlers
+[buildFatJar] not resolving conflict in file META-INF\spring.schemas
+[buildFatJar] not resolving conflict in file META-INF\spring.tooling
+[buildFatJar] not resolving conflict in file META-INF\license.txt
+[buildFatJar] not resolving conflict in file META-INF\notice.txt
+[buildFatJar] not resolving conflict in file META-INF\spring.handlers
+[buildFatJar] not resolving conflict in file META-INF\spring.schemas
+[buildFatJar] not resolving conflict in file META-INF\spring.tooling
+[buildFatJar] not resolving conflict in file META-INF\license.txt
+[buildFatJar] not resolving conflict in file META-INF\notice.txt
+[buildFatJar] not resolving conflict in file META-INF\license.txt
+[buildFatJar] not resolving conflict in file META-INF\notice.txt
+[buildFatJar] not resolving conflict in file META-INF\services\reactor.blockhound.integration.BlockHoundIntegration
+[buildFatJar] not resolving conflict in file META-INF\license.txt
+[buildFatJar] not resolving conflict in file META-INF\notice.txt
+[buildFatJar] not resolving conflict in file META-INF\NOTICE.txt
+[buildFatJar] not resolving conflict in file META-INF\LICENSE.txt
+[buildFatJar] not resolving conflict in file META-INF\LICENSE.txt
+[buildFatJar] not resolving conflict in file META-INF\NOTICE.txt
+[buildFatJar] not resolving conflict in file META-INF\LICENSE.txt
+[buildFatJar] not resolving conflict in file META-INF\NOTICE.txt
+[buildFatJar] not resolving conflict in file \module-info.class
+[buildFatJar] not resolving conflict in file META-INF\LICENSE
+[buildFatJar] not resolving conflict in file META-INF\NOTICE
+[buildFatJar] not resolving conflict in file META-INF\LICENSE
+[buildFatJar] not resolving conflict in file META-INF\NOTICE
+[buildFatJar] not resolving conflict in file META-INF\versions\9\module-info.class
+[buildFatJar] not resolving conflict in file \module-info.class
+[buildFatJar] not resolving conflict in file META-INF\INDEX.LIST
+[buildFatJar] not resolving conflict in file \module-info.class
+[buildFatJar] not resolving conflict in file META-INF\LICENSE.txt
+[buildFatJar] not resolving conflict in file META-INF\versions\9\module-info.class

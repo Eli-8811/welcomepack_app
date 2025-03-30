@@ -1,0 +1,7 @@
+<antlib>	
+	<typedef name="fatjar.manifest" classname="net.sf.fjep.anttask.FJManifestType"/>
+	<typedef name="fatjar.exclude" classname="net.sf.fjep.anttask.FJExcludeType"/>
+	<typedef name="fatjar.jarsource" classname="net.sf.fjep.anttask.FJJarSourceType"/>
+	<typedef name="fatjar.filesource" classname="net.sf.fjep.anttask.FJFileSourceType"/>
+	<taskdef name="buildFatJar" classname="net.sf.fjep.anttask.FJBuildTask"/>
+</antlib>
